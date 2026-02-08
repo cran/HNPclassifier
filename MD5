@@ -1,0 +1,15 @@
+5062e358a6ec870cb14768481898d9ac *DESCRIPTION
+766718f597db777d019b897a5334d716 *LICENSE
+8ec7dcbda915d98bf61066ceea458ccb *NAMESPACE
+cc96f16421449e80bb2c95311d57a8d4 *R/HNPclassifier.r
+181b5ac5a69bd3e3e542680739e88fd5 *build/partial.rdb
+d7805f2f3bf58b9deb68bb2df1b37bea *man/base_function.Rd
+9cc7870d1de9d7bc2a8b54426ad58e5f *man/hnp_box_plot.Rd
+136270e3128c8711f3b0e558130209f3 *man/hnp_delta_search.Rd
+b54d9c9be4489626d92fb428ed110d2b *man/hnp_map_classes.Rd
+86451675b2cb56c652dc79cdb9a686ad *man/hnp_summary.Rd
+2e83bb4813a82109452c57c3cdd1a0f9 *man/hnp_umbrella.Rd
+eb6d77958e1fcc9794a14202fff5c7e4 *man/hnp_umbrella_flex.Rd
+167ef0d1a674224d40880ad83f600f34 *man/hnp_upper_bound.Rd
+081db81ab20fbfc654baecfef5b39711 *man/probability_to_score_1.Rd
+5408d3112282c75357d3c062dbdb3886 *man/probability_to_score_2.Rd
