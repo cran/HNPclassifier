@@ -1,6 +1,6 @@
 Package: HNPclassifier
 Title: Hierarchical Neyman-Pearson Classification for Ordered Classes
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
        c(person(given = "Che", family = "Shen", role = c("aut", "cre"), 
              email = "chshen3-c@my.cityu.edu.hk", comment = "Implementation and maintenance"),
@@ -21,18 +21,17 @@ Description: The Hierarchical Neyman-Pearson (H-NP) classification framework
     with high probability. It supports the creation of H-NP classifiers using
     scoring functions based on built-in classification methods (including
     logistic regression, support vector machines, and random forests), as well
-    as user-trained scoring functions. For theoretical details, please refer to 
-    Lijia Wang, Y. X. Rachel Wang, Jingyi Jessica Li & Xin Tong (2024) <doi:10.1080/01621459.2023.2270657>.
+    as user-trained scoring functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.3.2
-Imports: dplyr, e1071, nnet, randomForest
+Imports: dplyr, e1071, MASS, nnet, randomForest
 NeedsCompilation: no
-Packaged: 2026-02-04 18:16:28 UTC; scsma
+Packaged: 2026-06-27 06:30:08 UTC; scsma
 Author: Che Shen [aut, cre] (Implementation and maintenance),
   Lujia Yang [aut] (Testing and debugging),
   Lijia Wang [aut] (Original theory and supervision),
   Shunan Yao [aut] (Supervision and debugging)
 Maintainer: Che Shen <chshen3-c@my.cityu.edu.hk>
 Repository: CRAN
-Date/Publication: 2026-02-08 16:40:07 UTC
+Date/Publication: 2026-06-27 06:40:02 UTC
