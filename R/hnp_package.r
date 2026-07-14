@@ -234,6 +234,29 @@ hnp_upper_bound <- function(S_it, level, delta_i, score_functions, thresholds, i
   t_i_bar
 }
 
+#' @title Built-in Base Learner for H-NP Classification
+#'
+#' @description Train a multi-class scoring classifier using one of the
+#'   built-in methods (random forest, support vector machine, or logistic
+#'   regression). The returned fitted model can be used directly or passed to
+#'   [hnp_umbrella()] via the `pretrained_model` argument.
+#' @param x A data.frame or matrix of predictors/features.
+#' @param y A vector or factor of class labels of length `nrow(x)`, with at
+#'   least two classes. When used inside the H-NP pipeline, labels should
+#'   already be internal levels `"1"`, ..., `"T"`.
+#' @param method Character string: one of `"randomforest"`, `"svm"`, or
+#'   `"logistic"`.
+#' @return A fitted model object (`randomForest::randomForest`,
+#'   `e1071::svm`, or `nnet::multinom`, depending on `method`).
+#' @seealso [hnp_umbrella()], [train_nn_and_get_scores()]
+#' @examples
+#' set.seed(123)
+#' X <- data.frame(x1 = rnorm(60), x2 = rnorm(60))
+#' Y <- factor(sample(c("1", "2", "3"), 60, replace = TRUE))
+#' fit_rf <- base_function(X, Y, method = "randomforest")
+#' fit_svm <- base_function(X, Y, method = "svm")
+#' fit_logistic <- base_function(X, Y, method = "logistic")
+#' @export
 base_function <- function(x, y, method = "randomforest") {
   # ---------------------------
   # Built-in base learners: randomforest / svm / logistic.

@@ -1,9 +1,10 @@
-8463982c783c38972e549371119ff1ae *DESCRIPTION
+0465342180a78b8816016b21bd5da2ab *DESCRIPTION
 b62d8cf395e297c6cff95d78c5bf456a *LICENSE
-6f97a4598b2ec6a77963d8c600d6db72 *NAMESPACE
-d136979bdfdd5627a1681447cb304787 *NEWS.md
-8e64214933bd62ba06efbbfdd5e4347b *R/hnp_package.r
+fbca96e3735022d0f7b676ffb96ab780 *NAMESPACE
+ca4b26a3eedeb0f896e56f5fe3ec091f *NEWS.md
+cb641e9e6482de6491fb5662941bcadc *R/hnp_package.r
 181b5ac5a69bd3e3e542680739e88fd5 *build/partial.rdb
+ea51b1937c6990c5699ad4c5c4891ae7 *man/base_function.Rd
 03aa910a05227ddc3e3b7a71bbf02d7d *man/generate_ball_data.Rd
 77eb7b381e94a7e551a09a932bdeafaa *man/hnp_boxplot.Rd
 3716e412b52edea654863e1d6654e84d *man/hnp_map_classes.Rd
